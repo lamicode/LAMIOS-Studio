@@ -1,0 +1,81 @@
+# =============================================================================
+# LAMIOS Studio - Official .gitignore
+# =============================================================================
+
+# Python Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python Bytecode & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+.Python
+
+# Testing & Static Analysis Caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Packaging & Distribution Builds
+build/
+dist/
+*.egg-info/
+.eggs/
+*.exe
+*.msi
+
+# Environment & Secrets
+.env
+.env.local
+*.key
+*.pem
+
+# Heavy AI Model Weights & Checkpoints (Managed outside Git)
+models/weights/
+models/cache/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.safetensors
+*.bin
+*.tflite
+*.sf2
+*.sfz
+
+# User Audio, Stems, and Native Project Files
+*.wav
+*.flac
+*.mp3
+*.aiff
+*.aif
+*.ogg
+*.m4a
+*.aac
+*.mid
+*.midi
+*.lamios
+*.lamios-backup
+
+# Runtime Logs & Temporary Working Buffers
+logs/
+*.log
+temp/
+tmp/
+cache/
+update_packages/
+
+# IDE & OS Specific (Keep workspace clean)
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
