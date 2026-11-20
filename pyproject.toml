@@ -26,6 +26,9 @@ dev = [
     "mypy>=1.10.0",
 ]
 
+[project.scripts]
+lamios-studio = "lamios.app.main:main"
+
 [tool.setuptools]
 package-dir = {"" = "src"}
 
